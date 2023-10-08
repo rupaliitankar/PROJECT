@@ -1,0 +1,20 @@
+#only for number
+num=int(input("Enter number: "))
+n=num
+rev=0
+while(num>0):
+  digit=num%10
+  rev=(rev*10)+digit
+  num=num//10
+if(n==rev):
+  print("palimdron")
+else:print("not")
+#both number and string
+n=input("Enter input: ")
+w=""
+for i in n:
+  w=i+w
+if(n==w):
+  print("yes")
+else:
+  print("no")
