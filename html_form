@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>form</title>
+        <style type="text/css">
+            .bg{
+                width: 1000px;
+                height: 500px;
+                font-size: 22px;
+                padding: 2px;
+                background:url("jit.jpg")no-repeat;
+                background-position: center;
+                background-size: cover;
+                border: 2px;
+            }
+
+        </style>
+
+    </head>
+    <body>
+        <!-- <form action="">
+            <label for="">FirstName: </label><input type="text">
+            <br/>
+            <br/>
+            <label for="">LastName: </label><input type="text">
+            <br/>
+            <br/>
+            <label for="">contact: </label><input type="text">
+
+            
+        </form> -->
+        <center>
+            <form action="" method="post">
+                <table class="bg">
+                    <tr>
+                        <th colspan="2px">Registration form</th>
+                    </tr>
+                    <tr>
+                        <th>Name</th>
+                        <td><input type="text"></td>
+                    </tr>
+                    <tr>
+                        <th>Surname</th>
+                        <td><input type="text"></td>
+
+                    </tr>
+                    <tr>
+                        <th>Email</th>
+                        <td><input type="email"></td>
+                    </tr>
+                    <tr>
+                        <th>Gender</th>
+                        <td>
+                            <input type="radio" name="Gender">Male
+                            <input type="radio" name="Gender">Female
+        
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>Hobies</th>
+                        <td>
+                            <input type="checkbox">Drawing
+                            <br/>
+                            <input type="checkbox">Dancing
+                            <br/>
+                            <input type="checkbox">Singing
+                            <br/>
+                            <input type="checkbox">Swimming
+                        </td>
+                    </tr>
+                    <tr>
+                        <th colspan="1px"></th>
+                        <td>
+                            <button><a href="logout.html"></a>SUBMIT</button>
+
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </center>
+    </body>
+</html>
